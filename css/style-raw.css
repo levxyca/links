@@ -62,3 +62,16 @@ h2 {
     margin: 0rem 0.5rem;
     padding: 0.5rem;
 }
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+    body {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .links a {
+        padding: 1rem;
+    }
+  }
