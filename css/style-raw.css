@@ -54,6 +54,7 @@ h2 {
 /* SOCIAL */
 
 .social {
+    display: flex;
     margin: 1rem;
 }
 
