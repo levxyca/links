@@ -51,16 +51,27 @@ h2 {
     border-radius: 0.625rem;
 }
 
+.links a:hover {
+    display: block;
+    color: #FAFAFA;
+    background-color: #4c3a69;
+}
+
 /* SOCIAL */
 
 .social {
     display: flex;
     margin: 1rem;
+    font-size: 1.5rem;
 }
 
 .social li a {
     margin: 0rem 0.5rem;
     padding: 0.5rem;
+}
+
+.social li a:hover {
+    color: #4c3a69;
 }
 
 /* MOBILE */
