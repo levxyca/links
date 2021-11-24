@@ -1,1 +1,103 @@
-a{text-decoration:none}ol,ul{list-style:none}html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,footer,header,nav,section,main{margin:0;padding:0;border:0;vertical-align:baseline}h1,h2,h3,h4,h5,h6,p,a,ul{font-size:1em;font-weight:400}body{font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;background-color:#252525;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}body,a{color:#fafafa}h1{font-size:2.5rem}h2{font-size:1.5rem}.header{display:flex;align-items:center;margin-bottom:2rem}.header img{border-radius:50%;width:100px;height:100px}.titulos{margin-left:1rem}.links{font-size:.8rem}.links a{display:block;color:#252525;background-color:#fafafa;text-align:center;margin:1rem 0;padding:1rem 10rem;border-radius:.625rem}.links a:hover{display:block;color:#fafafa;background-color:#4c3a69;animation:mouseHover .5s ease}@keyframes mouseHover{from{opacity:0}to{opacity:1}}.social{display:flex;margin:1rem;font-size:1.5rem}.social li a{margin:0 .5rem;padding:.5rem}.social li a:hover{color:#4c3a69;animation:mouseHover .5s ease}@media only screen and (max-width: 600px){body{max-width:320px;margin:0 auto}.links a{padding:1rem}}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #252525;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+a {
+  color: #fafafa;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.titulos {
+  margin-left: 1rem;
+}
+
+/* LINKS */
+
+.links {
+  font-size: 0.8rem;
+}
+
+.links a {
+  display: block;
+  color: #252525;
+  background-color: #fafafa;
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 1rem 10rem;
+  border-radius: 0.625rem;
+}
+
+.links a:hover {
+  display: block;
+  color: #fafafa;
+  background-color: #4c3a69;
+  animation: mouseHover 0.5s ease;
+}
+
+@keyframes mouseHover {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* SOCIAL */
+
+.social {
+  display: flex;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.social li a {
+  margin: 0rem 0.5rem;
+  padding: 0.5rem;
+}
+
+.social li a:hover {
+  color: #4c3a69;
+  animation: mouseHover 0.5s ease;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .links a {
+    padding: 1rem;
+  }
+}
