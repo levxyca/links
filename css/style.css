@@ -36,6 +36,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.header__description {
+  max-width: 350px;
+}
+
 .links {
   font-size: 0.8rem;
 }
@@ -45,7 +49,6 @@ body {
   color: #FFF6FF;
   text-align: center;
   text-decoration: underline;
-  margin: 1rem 0rem 1rem 0rem;
   padding: 0.5rem;
 }
 
