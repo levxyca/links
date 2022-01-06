@@ -11,7 +11,7 @@
 
 ## 🚀 Instalando 'Links'
 
-Para instalar o MyLinktree, siga estas etapas:
+Para instalar, siga estas etapas:
 
 ```
 git clone https://github.com/levxyca/my-linktree.git
