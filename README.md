@@ -1,9 +1,8 @@
 # Links
 
-![GitHub repo size](https://img.shields.io/github/repo-size/levxyca/my-linktree?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/levxyca/my-linktree?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/levxyca/my-linktree?style=for-the-badge)
-
+![GitHub repo size](https://img.shields.io/github/repo-size/levxyca/links?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/levxyca/links?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/levxyca/links?style=for-the-badge)
 
 <img src="img/exemplo.png" alt="Imagem de exemplo do site">
 
@@ -14,7 +13,7 @@
 Para instalar, siga estas etapas:
 
 ```
-git clone https://github.com/levxyca/my-linktree.git
+git clone https://github.com/levxyca/links.git
 ```
 
 ou 
