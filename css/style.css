@@ -55,7 +55,12 @@ body {
 .links a:hover {
   display: block;
   background-color: #5F4B64;
-  animation: mouseHover 0.5s ease;
+  animation: mouseHover 1.5s;
+}
+
+ion-icon:hover {
+  color: #5F4B64;
+  animation: mouseHover 1.5s;
 }
 
 @keyframes mouseHover {
