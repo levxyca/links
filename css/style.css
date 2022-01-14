@@ -12,8 +12,8 @@ body {
 .container {
   max-width: 450px;
   padding: 0.625rem 0.938rem;
-  box-shadow: 10px 10px 0em #5F4B64;
-  border: 1px solid #5F4B64;
+  box-shadow: 10px 10px 0em #171f2b;
+  border: 1px solid #171f2b;
 }
 
 .header {
@@ -54,12 +54,13 @@ body {
 
 .links a:hover {
   display: block;
-  background-color: #5F4B64;
+  background-color: #171f2b;
   animation: mouseHover 1.5s;
+  border-radius: 5px;
 }
 
-ion-icon:hover {
-  color: #5F4B64;
+.fab:hover  {
+  color: #171f2b;
   animation: mouseHover 1.5s;
 }
 
