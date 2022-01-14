@@ -1,0 +1,98 @@
+body {
+  font-family: monospace;
+  color: #FFF6FF;
+  background-color: #252525;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 450px;
+  padding: 0.625rem 0.938rem;
+  box-shadow: 10px 10px 0em #5F4B64;
+  border: 1px solid #5F4B64;
+}
+
+.header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.header__img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.header__title, .header__subtitle {
+  font-size: 2rem;
+}
+
+.header__subtitle {
+  margin-bottom: 1rem;
+}
+
+.header__description {
+  max-width: 350px;
+}
+
+.links {
+  font-size: 0.8rem;
+}
+
+.links__menu-item-a {
+  display: block;
+  color: #FFF6FF;
+  text-align: center;
+  text-decoration: underline;
+  padding: 0.5rem;
+}
+
+.links a:hover {
+  display: block;
+  background-color: #5F4B64;
+  animation: mouseHover 1.5s;
+}
+
+ion-icon:hover {
+  color: #5F4B64;
+  animation: mouseHover 1.5s;
+}
+
+@keyframes mouseHover {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.social {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.social__menu {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social__menu-item {
+  padding: 0.5rem;
+}
+
+.social__menu-item-a {
+  color: #FFF6FF;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 300px;
+  }
+}
