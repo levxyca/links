@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-  font-family: monospace;
+  font-family: 'Open Sans', sans-serif;
   color: #FFF6FF;
   background-color: #252525;
   height: 100vh;
@@ -57,11 +59,12 @@ body {
   background-color: #171f2b;
   animation: mouseHover 1.5s;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .fab:hover  {
   color: #171f2b;
-  animation: mouseHover 1.5s;
+  animation: mouseHover 0.5s;
 }
 
 @keyframes mouseHover {
