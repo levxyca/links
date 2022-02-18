@@ -3,6 +3,6 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
-    
+    Referrer-Policy = "same-origin"
     X-Content-Type-Options = "nosniff"
     Content-Security-Policy = "base-uri 'self'; default-src 'self' cdnjs.cloudflare; frame-ancestors 'self'; connect-src 'self'; font-src 'self' cdnjs.cloudflare.com fonts.gstatic.com; img-src 'self' cdnjs.cloudfront.net; script-src 'self'; style-src 'self' cdnjs.cloudflare.com fonts.googleapis.com 'unsafe-inline'; object-src 'none'; sandbox allow-forms allow-same-origin allow-scripts allow-popups;"
