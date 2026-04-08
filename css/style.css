@@ -2,7 +2,7 @@ body {
   font-family: monospace;
   color: #FFF6FF;
   background-color: #252525;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,12 +50,17 @@ body {
   text-align: center;
   text-decoration: underline;
   padding: 0.5rem;
+  transition: all 0.3s ease;
 }
 
 .links a:hover {
-  display: block;
   background-color: #5F4B64;
+  color: #FFF6FF;
   animation: mouseHover 1.5s;
+}
+
+ion-icon {
+  transition: color 0.3s ease;
 }
 
 ion-icon:hover {
@@ -89,10 +94,46 @@ ion-icon:hover {
 
 .social__menu-item-a {
   color: #FFF6FF;
+  transition: color 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    max-width: 400px;
+  }
+
+  .header__title, .header__subtitle {
+    font-size: 1.8rem;
+  }
+
+  .header__description {
+    font-size: 0.95rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.15rem;
+  }
+
   .container {
     max-width: 300px;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .header__title, .header__subtitle {
+    font-size: 1.6rem;
+  }
+
+  .links {
+    font-size: 0.9rem;
+  }
+
+  .header__description {
+    font-size: 0.9rem;
   }
 }
